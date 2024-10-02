@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* border: 1px solid red; */
+}
+
+html {
+	--primary-blue: #107ac5;
+}
+
+
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./fonts/Proxima-Nova/proximanova_light.otf");
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./fonts/Proxima-Nova/proximanova_regular.ttf");
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./fonts/Proxima-Nova/proximanova_sbold.ttf");
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./fonts/Proxima-Nova/proximanova_bold.otf");
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./fonts/Proxima-Nova/proximanova_extrabold.otf");
+	font-weight: 800;
+}
+
+@font-face {
+	font-family: 'proxima-nova';
+	src: url("./fonts/Proxima-Nova/proximanova_black.otf");
+	font-weight: 900;
+}
+
+
+html {
+	font-family: 'proxima-nova';
+}

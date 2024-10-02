@@ -1,0 +1,49 @@
+
+.landing_wrapper {
+    display: flex;
+    justify-content: center;
+    background: url('../../assets/illu-homepage-hero.svg') no-repeat;
+    background-size: 1865px auto;
+    background-position: bottom;
+    padding-bottom: 24.8em;
+
+    .content {
+        width: 32em;
+        padding: 2em;
+        position: relative;
+        top: 5.2em;
+        left: 9.1em;
+
+        .heading {
+            width: 10em;
+            font-weight: 500;
+            font-size: 2.85em;
+            text-wrap: balance;
+        }
+
+        .desc {
+            margin-top: 1.4em;
+            font-size: 1.24em;
+            line-height: 1.5em;
+            font-weight: 300;
+        }
+
+        .get_started {
+            background: var(--primary-blue);
+            border: none;
+            color: white;
+            padding: .95em 4.55em;
+            margin-top: 1.9em;
+            border-radius: 2px;
+            font-weight: 500;
+            font-family: 'proxima-nova';
+            letter-spacing: 1px;
+            font-size: 1.05em;
+
+        }
+
+    }
+
+
+
+}
