@@ -3,6 +3,10 @@
     padding: .5em 1em;
     align-items: center;
     justify-content: space-evenly;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 999;
 
     .left {
         display: flex;
