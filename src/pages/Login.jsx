@@ -27,19 +27,6 @@ const Login = () => {
 				<div className={styles.sign_in_btn}>
 					Sign In
 				</div>
-				{/* <div className={styles.social_sign_in}>
-					<span className={styles.title}>
-						Or sign in with:
-					</span>
-					<span className={styles.social_icons}>
-						<span className={styles.social_icon}></span>
-						<span className={styles.social_icon}></span>
-					</span>
-				</div>
-				<div className={styles.create_one}>
-					Don't have an account? Create one.
-				</div>
-				*/}
 			</div>
 			<div className={styles.footer}>
 				<div className={styles.footer_item}>© 2006-2024, Concur Technologies, Inc.</div>
