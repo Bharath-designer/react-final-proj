@@ -7,18 +7,20 @@ import dropdown from "../assets/icons/dropdown.svg"
 import styles from "../styles/NavBar.module.scss"
 import { RxHamburgerMenu } from 'react-icons/rx'
 import { IoMdClose } from 'react-icons/io'
+import { FaFacebook, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa'
+import { FaXTwitter } from 'react-icons/fa6'
 
 
 const NavBar = () => {
 
     const [isMobileNavOpen, setIsMobileNavOpen] = useState(false)
 
-    const toggleNav = useCallback(()=>{
-        setIsMobileNavOpen(prev=>!prev)
-    },[])
+    const toggleNav = useCallback(() => {
+        setIsMobileNavOpen(prev => !prev)
+    }, [])
 
     return (
-        <div className={`${styles.nav_container} ${isMobileNavOpen ? styles.open :''}`}>
+        <div className={`${styles.nav_container} ${isMobileNavOpen ? styles.open : ''}`}>
             <div className={styles.left}>
                 <img src={logo} alt="" />
                 <span onClick={toggleNav} className={styles.hamburger}><RxHamburgerMenu /></span>
@@ -43,6 +45,26 @@ const NavBar = () => {
                         <span>EN</span>
                         <img src={dropdown} className={styles.dropdown} alt="" />
                     </div>
+                </div>
+                <div className={styles.social_icons}>
+                    <div className={styles.social_icon}>
+                        <FaInstagram />
+                    </div>
+                    <div className={styles.social_icon}>
+                        <FaFacebook />
+                    </div>
+                    <div className={styles.social_icon}>
+                        <FaXTwitter />
+                    </div>
+                    <div className={styles.social_icon}>
+                        <FaLinkedinIn />
+                    </div>
+                    <div className={styles.social_icon}>
+                        <FaYoutube />
+                    </div>
+                </div>
+                <div className={styles.right_logo}>
+                    <img src={logo} alt="" />
                 </div>
             </div>
         </div>

@@ -60,7 +60,12 @@
             font-family: 'proxima-nova';
             letter-spacing: 1px;
             font-size: 1.05em;
-
+            cursor: pointer;
+            transition: .3s ease;
+   
+        }
+        .get_started:hover {
+            background: var(--primary-blue-hover);
         }
 
     }
