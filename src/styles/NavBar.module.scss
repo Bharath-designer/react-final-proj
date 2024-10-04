@@ -54,6 +54,11 @@
                 white-space: nowrap;
                 color: #333;
                 cursor: pointer;
+                text-decoration: none;
+            }
+
+            .nav_item:hover {
+                color: var(--primary-blue);
             }
         }
 

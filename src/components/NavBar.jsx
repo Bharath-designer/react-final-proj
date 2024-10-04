@@ -9,6 +9,7 @@ import { RxHamburgerMenu } from 'react-icons/rx'
 import { IoMdClose } from 'react-icons/io'
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa'
 import { FaXTwitter } from 'react-icons/fa6'
+import { Link } from 'react-router-dom'
 
 
 const NavBar = () => {
@@ -30,12 +31,12 @@ const NavBar = () => {
                     <IoMdClose />
                 </div>
                 <div className={styles.nav_items_container}>
-                    <div className={styles.nav_item}>TripIt</div>
-                    <div className={styles.nav_item}>TripIt Pro</div>
-                    <div className={styles.nav_item}>How It Works</div>
-                    <div className={styles.nav_item}>Pricing</div>
-                    <div className={styles.nav_item}>SAP Concur</div>
-                    <div className={`${styles.nav_item} ${styles.left_signin}`}>Sign In</div>
+                    <Link to={'/'} className={styles.nav_item}>TripIt</Link>
+                    <Link className={styles.nav_item}>TripIt Pro</Link>
+                    <Link className={styles.nav_item}>How It Works</Link>
+                    <Link className={styles.nav_item}>Pricing</Link>
+                    <Link className={styles.nav_item}>SAP Concur</Link>
+                    <Link to={'/login'} className={`${styles.nav_item} ${styles.left_signin}`}>Sign In</Link>
                 </div>
                 <div className={styles.nav_action_cont}>
                     <div className={`${styles.nav_action_item} ${styles.right_signin}`}>Sign In</div>
