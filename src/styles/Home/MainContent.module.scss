@@ -4,20 +4,40 @@
     gap: 4.6em;
     margin-top: .4em;
     padding-bottom: 5em;
+    flex-direction: row;
 
+
+    @media screen and (max-width:1050px) {
+        flex-direction: column;
+        width: min(30em, 100%);
+        margin: auto;
+        padding: 1em;
+
+    }
 
     .img_container {
         display: flex;
         align-items: flex-start;
+        justify-content: center;
 
         img {
             width: 30.5em;
+
+            @media screen and (max-width:1050px) {
+                width: min(25em, 100%);
+            }
         }
+
+
     }
 
     .content_container {
         width: 25em;
         text-wrap: balance;
+
+        @media screen and (max-width:1050px) {
+            width: 100%;
+        }
 
         .heading {
             font-size: 1.8em;
@@ -26,7 +46,7 @@
 
         .desc {
             margin-top: 1.5em;
-            font-size: 1.2em;
+            font-size: 1.1em;
             line-height: 1.5em;
             font-weight: 300;
             text-wrap: balance;
@@ -48,8 +68,13 @@
             font-weight: 300;
             line-height: 1.5em;
             width: 95%;
+
+
+            @media screen and (max-width:1050px) {
+                width: 100%;
+            }
         }
-        
+
         .author {
             text-align: end;
             font-style: italic;
@@ -63,11 +88,13 @@
     }
 }
 
-.main_content_wrapper:nth-child(2n) {
-    flex-direction: row-reverse;
+@media screen and (min-width:1050px) {
+    .main_content_wrapper:nth-child(2n) {
+        flex-direction: row-reverse;
+    }
 }
 
 
-.main_content_wrapper:last-child {
+.main_content_wrapper.last {
     border-bottom: 1px solid #eee;
 }

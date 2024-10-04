@@ -6,19 +6,38 @@
     background-size: 1865px auto;
     background-position: bottom;
     padding-bottom: 24.8em;
+    margin-top: 3.75em;
 
+    @media screen and (max-width:1050px) {
+        background: none;
+        padding-bottom: 10em;
+    }
+    
     .content {
         width: 32em;
         padding: 2em;
         position: relative;
         top: 5.2em;
         left: 9.1em;
-
+        
+        
+        @media screen and (max-width:1050px) {
+            left: 0;
+            width: min(30em,100%);
+            padding: 1em;
+        }
+        
         .heading {
             width: 10em;
             font-weight: 500;
             font-size: 2.85em;
             text-wrap: balance;
+
+
+            @media screen and (max-width:1050px) {
+                font-size: 2em;
+                width: 100%;
+            }
         }
 
         .desc {
@@ -26,6 +45,8 @@
             font-size: 1.24em;
             line-height: 1.5em;
             font-weight: 300;
+
+            
         }
 
         .get_started {
@@ -43,6 +64,7 @@
         }
 
     }
+
 
 
 

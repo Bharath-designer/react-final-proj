@@ -2,6 +2,11 @@ import content_1 from '../assets/illu-homepage-phone_2x.png'
 import content_2 from '../assets/illu-homepage-gate-us-covid.svg'
 import content_3 from '../assets/tripit-homepage-nearby.png'
 
+
+import blog_1 from "../assets/blog-1.png"
+import blog_2 from "../assets/blog-2.png"
+import blog_3 from "../assets/blog-3.png"
+
 export const home_page_main_content = [
     {
         img: content_1,
@@ -43,3 +48,30 @@ export const home_page_main_content = [
         }
     },
 ]
+
+
+export const more_from_blogs = [
+    {
+        img: blog_1,
+        title:"New Search Tool Added for Locating Trip Details in TripIt for iOS",
+        desc:"With a few keywords, you can now search within your travel plans (past and upcoming) to find trip details."
+    },
+    {
+        img: blog_2,
+        title:"City Break: Manhattan",
+        desc:"In this series from TripIt, we explore some of the world's best cities for planning a quick getaway or extending a work trip."
+    },
+    {
+        img: blog_3,
+        title:"New Enhancements for Navigating Travel Based on Your Vaccination Status",
+        desc:"Find information about vaccination rates and requirements, approved vaccines, exemptions for vaccinated travelers, and more, right in TripIt's COVID-19 travel guidance feature."
+    },
+
+]
+
+
+export const home_info_card_content = {
+    title:"Try the travel app that keeps up with you",
+    desc:"So many trips, so little time. Let TripIt worry about the details, so you don't have to.",
+    btnText:"Sign Up—It's Free!"
+}

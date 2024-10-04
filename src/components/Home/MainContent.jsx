@@ -2,11 +2,10 @@
 import styles from "../../styles/Home/MainContent.module.scss"
 
 
-const MainContent = ({content}) => {
-    console.log(content);
+const MainContent = ({content, last}) => {
     
   return (
-    <div className={styles.main_content_wrapper}>
+    <div className={`${styles.main_content_wrapper} ${last ? styles.last : ''}`}  >
         <div className={styles.img_container}>
             <img src={content.img} alt="" />
         </div>
