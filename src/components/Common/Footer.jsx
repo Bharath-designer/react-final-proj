@@ -1,7 +1,7 @@
 
-import styles from "../styles/Footer.module.scss"
+import styles from "../../styles/Common/Footer.module.scss"
 
-import logo from "../assets/logo-tripit.svg"
+import logo from "../../assets/images/logo-tripit.svg"
 
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";

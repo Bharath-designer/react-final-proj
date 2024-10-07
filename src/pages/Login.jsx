@@ -1,6 +1,6 @@
 import React from 'react'
 
-import tripit_logo from '../assets/logo-tripit.svg'
+import tripit_logo from '../assets/images/logo-tripit.svg'
 
 import styles from '../styles/Login/Login.module.scss'
 import { Checkbox, TextField } from '@mui/material'

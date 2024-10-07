@@ -1,10 +1,10 @@
 import styles from "../../styles/Home/Featured.module.scss"
 
-import feature_1 from "../../assets/thenewyorktimes.svg"
-import feature_2 from "../../assets/forbes.svg"
-import feature_3 from "../../assets/cnet.svg"
-import feature_4 from "../../assets/wallstreetjournal.svg"
-import feature_5 from "../../assets/mashable.svg"
+import feature_1 from "../../assets/images/thenewyorktimes.svg"
+import feature_2 from "../../assets/images/forbes.svg"
+import feature_3 from "../../assets/images/cnet.svg"
+import feature_4 from "../../assets/images/wallstreetjournal.svg"
+import feature_5 from "../../assets/images/mashable.svg"
 
 
 

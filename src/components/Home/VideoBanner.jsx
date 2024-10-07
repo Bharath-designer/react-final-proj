@@ -1,6 +1,6 @@
 import styles from "../../styles/Home/VideoBanner.module.scss"
 
-import play from "../../assets/play.svg"
+import play from "../../assets/images/play.svg"
 
 const VideoBanner = () => {
     return (

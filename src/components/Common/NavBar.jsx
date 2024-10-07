@@ -1,10 +1,10 @@
 import React, { useCallback, useState } from 'react'
 
-import logo from "../assets/logo-tripit.svg"
-import globe from "../assets/icons/globe.svg"
-import dropdown from "../assets/icons/dropdown.svg"
+import logo from "../../assets/images/logo-tripit.svg"
+import globe from "../../assets/icons/globe.svg"
+import dropdown from "../../assets/icons/dropdown.svg"
 
-import styles from "../styles/NavBar.module.scss"
+import styles from "../../styles/Common/NavBar.module.scss"
 import { RxHamburgerMenu } from 'react-icons/rx'
 import { IoMdClose } from 'react-icons/io'
 import { FaFacebook, FaInstagram, FaLinkedinIn, FaYoutube } from 'react-icons/fa'

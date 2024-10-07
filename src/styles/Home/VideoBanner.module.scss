@@ -1,5 +1,5 @@
 .video_banner_container {
-    background: url("../../assets/illu-homepage-video.svg");
+    background: url("../../assets/images/illu-homepage-video.svg");
     padding: 6.5em 0 8em;
     background-position: bottom;
     background-size: cover;
@@ -12,7 +12,7 @@
 
     @media screen and (max-width:1050px) {
         background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-        url("../../assets/illu-homepage-video.svg");   
+        url("../../assets/images/illu-homepage-video.svg");   
         color: white;     
         padding-inline: 2em;
         text-align: center;

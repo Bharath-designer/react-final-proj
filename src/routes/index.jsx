@@ -3,19 +3,19 @@ import * as React from "react";
 import {
   createBrowserRouter,
 } from "react-router-dom";
+import PagesLazyLoader from "../components/HOC/PagesLazyLoader.jsx";
 
-import Home from "../pages/Home.jsx";
-import Login from "../pages/Login.jsx";
+const Home = React.lazy(()=> import("../pages/Home.jsx"))
+const Login = React.lazy(()=> import("../pages/Login.jsx"))
 
 const router = createBrowserRouter([
   {
     path: "*",
-    element: <Home/>
+    element: PagesLazyLoader(Home)
   },
   {
     path: "/login",
-    
-    element: <Login/>,
+    element: PagesLazyLoader(Login),
   },
 ]);
 

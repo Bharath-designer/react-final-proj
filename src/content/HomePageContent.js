@@ -1,11 +1,11 @@
-import content_1 from '../assets/illu-homepage-phone_2x.png'
-import content_2 from '../assets/illu-homepage-gate-us-covid.svg'
-import content_3 from '../assets/tripit-homepage-nearby.png'
+import content_1 from '../assets/images/illu-homepage-phone_2x.png'
+import content_2 from '../assets/images/illu-homepage-gate-us-covid.svg'
+import content_3 from '../assets/images/tripit-homepage-nearby.png'
 
 
-import blog_1 from "../assets/blog-1.png"
-import blog_2 from "../assets/blog-2.png"
-import blog_3 from "../assets/blog-3.png"
+import blog_1 from "../assets/images/blog-1.png"
+import blog_2 from "../assets/images/blog-2.png"
+import blog_3 from "../assets/images/blog-3.png"
 
 export const home_page_main_content = [
     {
